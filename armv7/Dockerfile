@@ -28,6 +28,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 # Install deCONZ dependencies (except for WiringPi)
 RUN apt-get update && \
     apt-get install -y \
+        git \
         curl \
         kmod \
         libcap2-bin \
